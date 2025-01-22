@@ -1,0 +1,63 @@
+Amigo Secreto
+
+Este proyecto es una aplicación interactiva que permite organizar un sorteo de "Amigo Secreto". Los usuarios pueden agregar nombres de amigos a una lista, y con un solo clic, se seleccionará aleatoriamente a un participante como el "amigo secreto".
+
+Características
+
+Agregar nombres: Los usuarios pueden añadir nombres de amigos a una lista visible.
+
+Validación de entrada: Asegura que no se ingresen campos vacíos.
+
+Visualización: Muestra todos los nombres ingresados en una lista.
+
+Sorteo aleatorio: Selecciona un nombre de la lista al azar y lo muestra en pantalla.
+
+Tecnologías utilizadas
+
+HTML5: Estructura de la página web.
+
+CSS3: Diseño y estilos del proyecto.
+
+JavaScript: Lógica y funcionalidades interactivas.
+
+Cómo ejecutar el proyecto
+
+Clonar el repositorio:
+
+git clone <URL del repositorio>
+
+Abrir el archivo index.html:
+
+Navega a la carpeta donde clonaste el repositorio.
+
+Abre el archivo index.html en tu navegador.
+
+Interacción con la aplicación:
+
+Ingresa nombres en el campo de texto.
+
+Haz clic en "Añadir" para agregar nombres a la lista.
+
+Una vez completada la lista, haz clic en "Sortear amigo" para seleccionar un amigo secreto.
+
+Estructura del proyecto
+
+index.html: Estructura principal de la aplicación.
+
+style.css: Estilos para el diseño y la interfaz de usuario.
+
+app.js: Lógica y funcionalidades del juego.
+
+assets/: Carpeta que contiene imágenes e íconos.
+
+Próximas mejoras
+
+Eliminar nombres de la lista: Agregar la funcionalidad para eliminar nombres específicos.
+
+Evitar duplicados: Validar que no se repitan nombres al añadir.
+
+Persistencia: Guardar la lista de amigos en el almacenamiento local del navegador.
+
+Créditos
+
+Este proyecto fue desarrollado como un desafío de programación para aprender y aplicar conceptos de HTML, CSS y JavaScript.
