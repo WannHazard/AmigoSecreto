@@ -1,5 +1,5 @@
 // Lista para almacenar los nombres de los amigos
-let listaAmigos = [];
+let listaAmigos = JSON.parse(localStorage.getItem('listaAmigos')) || [];
 
 // Función para agregar un nombre a la lista
 function agregarAmigo() {
@@ -11,9 +11,15 @@ function agregarAmigo() {
         return;
     }
 
+    if (listaAmigos.includes(nombre)) {
+        alert("El nombre ya está en la lista.");
+        return;
+    }
+
     listaAmigos.push(nombre);
     actualizarListaAmigos();
     input.value = ""; // Limpiar el campo de entrada
+    guardarListaAmigos();
 }
 
 // Función para actualizar la lista visible en la página
@@ -47,3 +53,11 @@ function sortearAmigo() {
     itemResultado.classList.add("result-item");
     resultado.appendChild(itemResultado);
 }
+
+// Función para guardar la lista de amigos en el almacenamiento local
+function guardarListaAmigos() {
+    localStorage.setItem('listaAmigos', JSON.stringify(listaAmigos));
+}
+
+// Actualizar la lista al cargar la página
+window.onload = actualizarListaAmigos;
