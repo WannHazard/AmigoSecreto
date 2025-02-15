@@ -12,7 +12,7 @@ Visualización: Muestra todos los nombres ingresados en una lista.
 
 Sorteo aleatorio: Selecciona un nombre de la lista al azar y lo muestra en pantalla.
 
-Tecnologías utilizadas
+Tecnologías Utilizadas
 
 HTML5: Estructura de la página web.
 
@@ -20,11 +20,11 @@ CSS3: Diseño y estilos del proyecto.
 
 JavaScript: Lógica y funcionalidades interactivas.
 
-Cómo ejecutar el proyecto
+Cómo Ejecutar el Proyecto
 
 Clonar el repositorio:
 
-git clone <URL del repositorio>
+git clone https://github.com/WannHazard/amigo-secreto.git
 
 Abrir el archivo index.html:
 
@@ -40,17 +40,15 @@ Haz clic en "Añadir" para agregar nombres a la lista.
 
 Una vez completada la lista, haz clic en "Sortear amigo" para seleccionar un amigo secreto.
 
-Estructura del proyecto
+Estructura del Proyecto
 
-index.html: Estructura principal de la aplicación.
+amigo-secreto
+│-- index.html    # Estructura principal de la aplicación
+│-- style.css     # Estilos para el diseño y la interfaz de usuario
+│-- app.js        # Lógica y funcionalidades del juego
+│-- assets/       # Carpeta que contiene imágenes e íconos
 
-style.css: Estilos para el diseño y la interfaz de usuario.
-
-app.js: Lógica y funcionalidades del juego.
-
-assets/: Carpeta que contiene imágenes e íconos.
-
-Próximas mejoras
+Próximas Mejoras
 
 Eliminar nombres de la lista: Agregar la funcionalidad para eliminar nombres específicos.
 
@@ -58,6 +56,15 @@ Evitar duplicados: Validar que no se repitan nombres al añadir.
 
 Persistencia: Guardar la lista de amigos en el almacenamiento local del navegador.
 
+Contacto
+
+Si quieres seguir mi trabajo, puedes encontrarme en:
+
+GitHub: WannHazard
+
+LinkedIn: Tu Perfil
+
+Desarrollado con pasión por [Tu Nombre]. Gracias por visitar mi repositorio.
 Créditos
 
 Este proyecto fue desarrollado como un desafío de programación para aprender y aplicar conceptos de HTML, CSS y JavaScript.
