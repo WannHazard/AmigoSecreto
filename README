@@ -1,84 +1,57 @@
-Amigo Secreto
+🎁 Amigo Secreto
+Este proyecto es una aplicación interactiva para organizar un sorteo de "Amigo Secreto". Los usuarios pueden agregar nombres a una lista y, con un solo clic, se seleccionará aleatoriamente a un participante como el "amigo secreto".
 
-Este proyecto es una aplicación interactiva que permite organizar un sorteo de "Amigo Secreto". Los usuarios pueden agregar nombres de amigos a una lista, y con un solo clic, se seleccionará aleatoriamente a un participante como el "amigo secreto".
+🚀 Características
+✅ Agregar nombres: Los usuarios pueden ingresar nombres en una lista visible.
+✅ Validación de entrada: Se evita el ingreso de campos vacíos.
+✅ Visualización en tiempo real: La lista se actualiza dinámicamente.
+✅ Sorteo aleatorio: Se selecciona y muestra un nombre de la lista al azar.
 
-Características
+🛠 Tecnologías Utilizadas
+HTML5: Para la estructura de la página web.
+CSS3: Para los estilos y diseño de la interfaz.
+JavaScript: Para la lógica y la funcionalidad interactiva.
+📌 Cómo Ejecutar el Proyecto
+Clonar el repositorio:
 
-Agregar nombres: Los usuarios pueden añadir nombres de amigos a una lista visible.
-
-Validación de entrada: Asegura que no se ingresen campos vacíos.
-
-Visualización: Muestra todos los nombres ingresados en una lista.
-
-Sorteo aleatorio: Selecciona un nombre de la lista al azar y lo muestra en pantalla.
-
-Tecnologías Utilizadas
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-
-## 🚀 Cómo Empezar
-
-### Requisitos Previos
-- Navegador web moderno (Chrome, Firefox, Safari)
-- Git (opcional para clonar repositorio)
-
-### Instalación
-```bash
-# Clonar repositorio
+bash
+Copiar
+Editar
 git clone https://github.com/WannHazard/amigo-secreto.git
+Abrir el archivo index.html:
 
-# Abrir proyecto
-cd amigo-secreto
-Uso
-Abre index.html en tu navegador
+Navega a la carpeta donde clonaste el repositorio.
+Abre el archivo index.html en tu navegador.
+Interacción con la aplicación:
 
-Ingresa nombres en el campo de texto
-
-Haz clic en "Añadir" para agregar a la lista
-
-Presiona "Sortear amigo" para realizar el sorteo
-
-¡Descubre quién es tu amigo secreto! 🎉
-
-Demo de la aplicación <!-- Agrega un GIF de demostración -->
-
+Ingresa nombres en el campo de texto.
+Haz clic en "Añadir" para agregarlos a la lista.
+Una vez completada la lista, presiona "Sortear amigo" para realizar el sorteo.
 📂 Estructura del Proyecto
+bash
+Copiar
+Editar
 amigo-secreto/
-├── index.html          # Página principal
-├── style.css           # Estilos visuales
-├── app.js              # Lógica de la aplicación
-└── assets/
-    ├── images/         # Almacenamiento de imágenes
-    └── icons/          # Íconos utilizados
-    🌟 Próximas Mejoras
-Botón para eliminar participantes individuales
+│-- index.html    # Estructura principal de la aplicación
+│-- style.css     # Estilos de la interfaz
+│-- app.js        # Lógica y funcionalidades del sorteo
+│-- assets/       # Carpeta con imágenes e íconos
+🔥 Próximas Mejoras
+🔹 Eliminar nombres de la lista: Posibilidad de eliminar nombres individuales.
+🔹 Evitar duplicados: Validar que los nombres no se repitan.
+🔹 Persistencia de datos: Guardar la lista de amigos en el almacenamiento local del navegador.
 
-Validación de nombres duplicados
+📞 Contacto
+📌 GitHub: WannHazard
 
-Persistencia de datos con LocalStorage
+💡 Desarrollado con pasión por [WannHazard]. ¡Gracias por visitar mi repositorio!
 
-Opción de reiniciar el sorteo
+🎖 Créditos
+Este proyecto fue creado como un desafío de programación para aprender y aplicar conocimientos en HTML, CSS y JavaScript.
 
-Efectos de sonido y animaciones
+📌 Mejoras aplicadas:
+✔️ Uso de emojis para mejorar la presentación.
+✔️ Mayor claridad en la estructura y redacción.
+✔️ Corrección de enlaces y formato de código.
 
-🤝 Contribuir
-Las contribuciones son bienvenidas! Sigue estos pasos:
-
-Haz un Fork del proyecto
-
-Crea una rama con tu feature (git checkout -b feature/nueva-funcionalidad)
-
-Haz commit de tus cambios (git commit -m 'Agrego nueva funcionalidad')
-
-Haz push a la rama (git push origin feature/nueva-funcionalidad)
-
-Abre un Pull Request
-
-📬 Contacto
-GitHub
-LinkedIn
-
-Desarrollado con ❤️ por [WannHazard]Leonardo Seguel
-¡Si te gusta el proyecto, déjale una ⭐ al repositorio!
+Si quieres que haga algún ajuste adicional, dime qué te gustaría mejorar. 🚀
