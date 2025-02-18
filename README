@@ -14,57 +14,71 @@ Sorteo aleatorio: Selecciona un nombre de la lista al azar y lo muestra en panta
 
 Tecnologías Utilizadas
 
-HTML5: Estructura de la página web.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-CSS3: Diseño y estilos del proyecto.
+## 🚀 Cómo Empezar
 
-JavaScript: Lógica y funcionalidades interactivas.
+### Requisitos Previos
+- Navegador web moderno (Chrome, Firefox, Safari)
+- Git (opcional para clonar repositorio)
 
-Cómo Ejecutar el Proyecto
-
-Clonar el repositorio:
-
+### Instalación
+```bash
+# Clonar repositorio
 git clone https://github.com/WannHazard/amigo-secreto.git
 
-Abrir el archivo index.html:
+# Abrir proyecto
+cd amigo-secreto
+Uso
+Abre index.html en tu navegador
 
-Navega a la carpeta donde clonaste el repositorio.
+Ingresa nombres en el campo de texto
 
-Abre el archivo index.html en tu navegador.
+Haz clic en "Añadir" para agregar a la lista
 
-Interacción con la aplicación:
+Presiona "Sortear amigo" para realizar el sorteo
 
-Ingresa nombres en el campo de texto.
+¡Descubre quién es tu amigo secreto! 🎉
 
-Haz clic en "Añadir" para agregar nombres a la lista.
+Demo de la aplicación <!-- Agrega un GIF de demostración -->
 
-Una vez completada la lista, haz clic en "Sortear amigo" para seleccionar un amigo secreto.
+📂 Estructura del Proyecto
+amigo-secreto/
+├── index.html          # Página principal
+├── style.css           # Estilos visuales
+├── app.js              # Lógica de la aplicación
+└── assets/
+    ├── images/         # Almacenamiento de imágenes
+    └── icons/          # Íconos utilizados
+    🌟 Próximas Mejoras
+Botón para eliminar participantes individuales
 
-Estructura del Proyecto
+Validación de nombres duplicados
 
-amigo-secreto
-│-- index.html    # Estructura principal de la aplicación
-│-- style.css     # Estilos para el diseño y la interfaz de usuario
-│-- app.js        # Lógica y funcionalidades del juego
-│-- assets/       # Carpeta que contiene imágenes e íconos
+Persistencia de datos con LocalStorage
 
-Próximas Mejoras
+Opción de reiniciar el sorteo
 
-Eliminar nombres de la lista: Agregar la funcionalidad para eliminar nombres específicos.
+Efectos de sonido y animaciones
 
-Evitar duplicados: Validar que no se repitan nombres al añadir.
+🤝 Contribuir
+Las contribuciones son bienvenidas! Sigue estos pasos:
 
-Persistencia: Guardar la lista de amigos en el almacenamiento local del navegador.
+Haz un Fork del proyecto
 
-Contacto
+Crea una rama con tu feature (git checkout -b feature/nueva-funcionalidad)
 
-Si quieres seguir mi trabajo, puedes encontrarme en:
+Haz commit de tus cambios (git commit -m 'Agrego nueva funcionalidad')
 
-GitHub: WannHazard
+Haz push a la rama (git push origin feature/nueva-funcionalidad)
 
-LinkedIn: Tu Perfil
+Abre un Pull Request
 
-Desarrollado con pasión por [Tu Nombre]. Gracias por visitar mi repositorio.
-Créditos
+📬 Contacto
+GitHub
+LinkedIn
 
-Este proyecto fue desarrollado como un desafío de programación para aprender y aplicar conceptos de HTML, CSS y JavaScript.
+Desarrollado con ❤️ por [WannHazard]Leonardo Seguel
+¡Si te gusta el proyecto, déjale una ⭐ al repositorio!
