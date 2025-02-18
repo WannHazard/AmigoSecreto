@@ -2,6 +2,7 @@
 
 Este proyecto es una aplicación interactiva que permite organizar un sorteo de "Amigo Secreto". Los usuarios pueden agregar nombres de amigos a una lista, y con un solo clic, se seleccionará aleatoriamente a un participante como el "amigo secreto".
 
+   ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 ## Características
 
 - **Agregar nombres**: Los usuarios pueden añadir nombres de amigos a una lista visible.
