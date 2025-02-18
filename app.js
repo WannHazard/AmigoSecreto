@@ -36,8 +36,23 @@ function actualizarListaAmigos() {
         const item = document.createElement("li");
         item.textContent = amigo;
         item.classList.add("name-item");
+
+        // Crear botón de eliminación
+        const deleteButton = document.createElement("button");
+        deleteButton.textContent = "Eliminar";
+        deleteButton.classList.add("delete-button");
+        deleteButton.onclick = () => eliminarAmigo(index);
+
+        item.appendChild(deleteButton);
         lista.appendChild(item);
     });
+}
+
+// Nueva función para eliminar un amigo de la lista
+function eliminarAmigo(index) {
+    listaAmigos.splice(index, 1);
+    actualizarListaAmigos();
+    guardarListaAmigos();
 }
 
 // Función para sortear un amigo secreto
@@ -51,6 +66,7 @@ function sortearAmigo() {
     const popup = document.getElementById("popup");
     const winnerName = document.getElementById("winner-name");
     const spinner = document.querySelector(".spinner");
+    const winnerSound = document.getElementById("winner-sound");
     popup.style.display = "flex";
     winnerName.textContent = "";
 
@@ -62,6 +78,7 @@ function sortearAmigo() {
         spinner.style.animation = "none";
 
         winnerName.textContent = `El amigo secreto es: ${amigoSecreto}`;
+        winnerSound.play(); // Reproducir el sonido
     }, 1000);
 }
 
