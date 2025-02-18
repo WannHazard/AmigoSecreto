@@ -1,71 +1,66 @@
-Amigo Secreto
+# Amigo Secreto
 
 Este proyecto es una aplicación interactiva que permite organizar un sorteo de "Amigo Secreto". Los usuarios pueden agregar nombres de amigos a una lista, y con un solo clic, se seleccionará aleatoriamente a un participante como el "amigo secreto".
 
-Características
+## Características
 
-Agregar nombres: Los usuarios pueden añadir nombres de amigos a una lista visible.
+- **Agregar nombres**: Los usuarios pueden añadir nombres de amigos a una lista visible.
+- **Validación de entrada**: Asegura que no se ingresen campos vacíos.
+- **Visualización**: Muestra todos los nombres ingresados en una lista.
+- **Sorteo aleatorio**: Selecciona un nombre de la lista al azar y lo muestra en pantalla.
+- **Animación de ruleta**: Muestra una animación de ruleta antes de anunciar el ganador.
+- **Popup de ganador**: El nombre del ganador se muestra en un popup que se puede cerrar con un botón "Volver".
 
-Validación de entrada: Asegura que no se ingresen campos vacíos.
+## Tecnologías Utilizadas
 
-Visualización: Muestra todos los nombres ingresados en una lista.
+- **HTML5**: Estructura de la página web.
+- **CSS3**: Diseño y estilos del proyecto.
+- **JavaScript**: Lógica y funcionalidades interactivas.
 
-Sorteo aleatorio: Selecciona un nombre de la lista al azar y lo muestra en pantalla.
+## Cómo Ejecutar el Proyecto
 
-Tecnologías Utilizadas
+1. **Clonar el repositorio**:
+    ```bash
+    git clone https://github.com/WannHazard/amigo-secreto.git
+    ```
 
-HTML5: Estructura de la página web.
+2. **Abrir el archivo [`index.html`](index.html )**:
+    - Navega a la carpeta donde clonaste el repositorio.
+    - Abre el archivo [`index.html`](index.html ) en tu navegador.
 
-CSS3: Diseño y estilos del proyecto.
+3. **Interacción con la aplicación**:
+    - Ingresa nombres en el campo de texto.
+    - Haz clic en "Añadir" para agregar nombres a la lista.
+    - Una vez completada la lista, haz clic en "Sortear amigo" para seleccionar un amigo secreto.
+    - Se mostrará un popup con una animación de ruleta y luego el nombre del ganador.
+    - Haz clic en "Volver" para cerrar el popup y reiniciar la plantilla.
 
-JavaScript: Lógica y funcionalidades interactivas.
+## Estructura del Proyecto
 
-Cómo Ejecutar el Proyecto
-
-Clonar el repositorio:
-
-git clone https://github.com/WannHazard/amigo-secreto.git
-
-Abrir el archivo index.html:
-
-Navega a la carpeta donde clonaste el repositorio.
-
-Abre el archivo index.html en tu navegador.
-
-Interacción con la aplicación:
-
-Ingresa nombres en el campo de texto.
-
-Haz clic en "Añadir" para agregar nombres a la lista.
-
-Una vez completada la lista, haz clic en "Sortear amigo" para seleccionar un amigo secreto.
-
-Estructura del Proyecto
-
-amigo-secreto
+```plaintext
+amigo-secreto/
 │-- index.html    # Estructura principal de la aplicación
 │-- style.css     # Estilos para el diseño y la interfaz de usuario
 │-- app.js        # Lógica y funcionalidades del juego
 │-- assets/       # Carpeta que contiene imágenes e íconos
+```
 
-Próximas Mejoras
+## Próximas Mejoras
 
-Eliminar nombres de la lista: Agregar la funcionalidad para eliminar nombres específicos.
+- Eliminar nombres de la lista: Agregar la funcionalidad para eliminar nombres específicos.
+- Evitar duplicados: Validar que no se repitan nombres al añadir.
+- Persistencia: Guardar la lista de amigos en el almacenamiento local del navegador.
 
-Evitar duplicados: Validar que no se repitan nombres al añadir.
-
-Persistencia: Guardar la lista de amigos en el almacenamiento local del navegador.
-
-Contacto
+## Contacto
 
 Si quieres seguir mi trabajo, puedes encontrarme en:
 
-GitHub: WannHazard
-
-LinkedIn: Tu Perfil
+- **GitHub**: WannHazard
+- **LinkedIn**: Tu Perfil
 
 Desarrollado con pasión por [Tu Nombre]. Gracias por visitar mi repositorio.
-Créditos
+
+## Créditos
 
 Este proyecto fue desarrollado como un desafío de programación para aprender y aplicar conceptos de HTML, CSS y JavaScript.
 
