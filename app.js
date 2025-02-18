@@ -11,6 +11,11 @@ function agregarAmigo() {
         return;
     }
 
+    if (/\d/.test(nombre)) {
+        alert("El nombre no puede contener números.");
+        return;
+    }
+
     if (listaAmigos.includes(nombre)) {
         alert("El nombre ya está en la lista.");
         return;
@@ -42,16 +47,35 @@ function sortearAmigo() {
         return;
     }
 
-    const indiceAleatorio = Math.floor(Math.random() * listaAmigos.length);
-    const amigoSecreto = listaAmigos[indiceAleatorio];
+    // Mostrar el popup con la animación de la ruleta
+    const popup = document.getElementById("popup");
+    const winnerName = document.getElementById("winner-name");
+    const spinner = document.querySelector(".spinner");
+    popup.style.display = "flex";
+    winnerName.textContent = "";
 
-    const resultado = document.getElementById("resultado");
-    resultado.innerHTML = ""; // Limpiar resultado previo
+    setTimeout(() => {
+        const indiceAleatorio = Math.floor(Math.random() * listaAmigos.length);
+        const amigoSecreto = listaAmigos[indiceAleatorio];
 
-    const itemResultado = document.createElement("li");
-    itemResultado.textContent = `El amigo secreto es: ${amigoSecreto}`;
-    itemResultado.classList.add("result-item");
-    resultado.appendChild(itemResultado);
+        // Detener la animación de la ruleta
+        spinner.style.animation = "none";
+
+        winnerName.textContent = `El amigo secreto es: ${amigoSecreto}`;
+    }, 1000);
+}
+
+// Función para cerrar el popup y reiniciar la plantilla
+function cerrarPopup() {
+    const popup = document.getElementById("popup");
+    const spinner = document.querySelector(".spinner");
+    popup.style.display = "none";
+    listaAmigos = [];
+    guardarListaAmigos();
+    actualizarListaAmigos();
+
+    // Reiniciar la animación de la ruleta
+    spinner.style.animation = "spin 1s linear infinite";
 }
 
 // Función para guardar la lista de amigos en el almacenamiento local
