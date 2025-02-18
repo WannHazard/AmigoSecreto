@@ -5,11 +5,14 @@ Este proyecto es una aplicación interactiva que permite organizar un sorteo de 
 ## Características
 
 - **Agregar nombres**: Los usuarios pueden añadir nombres de amigos a una lista visible.
-- **Validación de entrada**: Asegura que no se ingresen campos vacíos.
+- **Validación de entrada**: Asegura que no se ingresen campos vacíos y que no se repitan nombres.
 - **Visualización**: Muestra todos los nombres ingresados en una lista.
+- **Eliminar nombres**: Los usuarios pueden eliminar nombres específicos de la lista.
+- **Persistencia**: La lista de amigos se guarda en el almacenamiento local del navegador.
 - **Sorteo aleatorio**: Selecciona un nombre de la lista al azar y lo muestra en pantalla.
 - **Animación de ruleta**: Muestra una animación de ruleta antes de anunciar el ganador.
 - **Popup de ganador**: El nombre del ganador se muestra en un popup que se puede cerrar con un botón "Volver".
+- **Sonido ganador**: Reproduce un sonido al elegir un ganador.
 
 ## Tecnologías Utilizadas
 
@@ -47,9 +50,10 @@ amigo-secreto/
 
 ## Próximas Mejoras
 
-- Eliminar nombres de la lista: Agregar la funcionalidad para eliminar nombres específicos.
-- Evitar duplicados: Validar que no se repitan nombres al añadir.
-- Persistencia: Guardar la lista de amigos en el almacenamiento local del navegador.
+- [x] Eliminar nombres de la lista: Agregar la funcionalidad para eliminar nombres específicos.
+- [x] Evitar duplicados: Validar que no se repitan nombres al añadir.
+- [x] Persistencia: Guardar la lista de amigos en el almacenamiento local del navegador.
+- [x] Sonido ganador: Reproducir un sonido al elegir un ganador.
 
 ## Contacto
 
