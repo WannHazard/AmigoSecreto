@@ -1,77 +1,67 @@
 # Amigo Secreto
 
-Este proyecto es una aplicación interactiva que permite organizar un sorteo de "Amigo Secreto". Los usuarios pueden agregar nombres de amigos a una lista, y con un solo clic, se seleccionará aleatoriamente a un participante como el "amigo secreto".
+Este proyecto es una aplicación interactiva que permite organizar un sorteo de "Amigo Secreto" de manera fácil y divertida. Los usuarios pueden agregar nombres de amigos a una lista y, con un solo clic, se seleccionará aleatoriamente a un participante como el "amigo secreto".
 
-   ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
-## Características
+
+
+## ✨ Características
 
 - **Agregar nombres**: Los usuarios pueden añadir nombres de amigos a una lista visible.
-- **Validación de entrada**: Asegura que no se ingresen campos vacíos y que no se repitan nombres.
+- **Validación de entrada**: Se evita la introducción de campos vacíos y nombres duplicados.
 - **Visualización**: Muestra todos los nombres ingresados en una lista.
 - **Eliminar nombres**: Los usuarios pueden eliminar nombres específicos de la lista.
 - **Persistencia**: La lista de amigos se guarda en el almacenamiento local del navegador.
 - **Sorteo aleatorio**: Selecciona un nombre de la lista al azar y lo muestra en pantalla.
-- **Animación de ruleta**: Muestra una animación de ruleta antes de anunciar el ganador.
-- **Popup de ganador**: El nombre del ganador se muestra en un popup que se puede cerrar con un botón "Volver".
-- **Sonido ganador**: Reproduce un sonido al elegir un ganador.
+- **Animación de ruleta**: Muestra una animación antes de anunciar el ganador.
+- **Popup de ganador**: El nombre del ganador se muestra en un popup con opción para cerrarlo.
+- **Sonido de ganador**: Reproduce un sonido al seleccionar al ganador.
 
-## Tecnologías Utilizadas
+## 🛠️ Tecnologías Utilizadas
 
 - **HTML5**: Estructura de la página web.
 - **CSS3**: Diseño y estilos del proyecto.
 - **JavaScript**: Lógica y funcionalidades interactivas.
 
-## Cómo Ejecutar el Proyecto
+## 🚀 Cómo Ejecutar el Proyecto
 
 1. **Clonar el repositorio**:
-    ```bash
-    git clone https://github.com/WannHazard/amigo-secreto.git
-    ```
-
-2. **Abrir el archivo [`index.html`](index.html )**:
-    - Navega a la carpeta donde clonaste el repositorio.
-    - Abre el archivo [`index.html`](index.html ) en tu navegador.
-
+   ```bash
+   git clone https://github.com/WannHazard/amigo-secreto.git
+   ```
+2. **Abrir el archivo ****`index.html`**:
+   - Navega a la carpeta donde clonaste el repositorio.
+   - Abre el archivo `index.html` en tu navegador.
 3. **Interacción con la aplicación**:
-    - Ingresa nombres en el campo de texto.
-    - Haz clic en "Añadir" para agregar nombres a la lista.
-    - Una vez completada la lista, haz clic en "Sortear amigo" para seleccionar un amigo secreto.
-    - Se mostrará un popup con una animación de ruleta y luego el nombre del ganador.
-    - Haz clic en "Volver" para cerrar el popup y reiniciar la plantilla.
+   - Ingresa nombres en el campo de texto.
+   - Haz clic en "Añadir" para agregarlos a la lista.
+   - Cuando la lista esté completa, haz clic en "Sortear amigo" para seleccionar un amigo secreto.
+   - Se mostrará un popup con una animación de ruleta y luego el nombre del ganador.
+   - Haz clic en "Volver" para cerrar el popup y reiniciar la plantilla.
 
-## Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 ```plaintext
 amigo-secreto/
 │-- index.html    # Estructura principal de la aplicación
-│-- style.css     # Estilos para el diseño y la interfaz de usuario
+│-- style.css     # Estilos para el diseño e interfaz de usuario
 │-- app.js        # Lógica y funcionalidades del juego
-│-- assets/       # Carpeta que contiene imágenes e íconos
+│-- assets/       # Carpeta con imágenes e íconos
 ```
 
-## Próximas Mejoras
+## 📌 Próximas Mejoras
 
-- [x] Eliminar nombres de la lista: Agregar la funcionalidad para eliminar nombres específicos.
-- [x] Evitar duplicados: Validar que no se repitan nombres al añadir.
-- [x] Persistencia: Guardar la lista de amigos en el almacenamiento local del navegador.
-- [x] Sonido ganador: Reproducir un sonido al elegir un ganador.
+-
 
-## Contacto
+## 📬 Contacto
 
-Si quieres seguir mi trabajo, puedes encontrarme en:
+Si quieres seguir mi trabajo o colaborar en el proyecto, puedes encontrarme en:
 
-- **GitHub**: WannHazard
-- **LinkedIn**: Tu Perfil
+- **GitHub**: [WannHazard](https://github.com/WannHazard)
+- **LinkedIn**: [Tu Perfil](https://www.linkedin.com)
 
-Desarrollado con pasión por [Tu Nombre]. Gracias por visitar mi repositorio.
+Desarrollado con pasión por **Leonardo Seguel**. ¡Gracias por visitar mi repositorio! 🚀
 
-## Créditos
+## 🔖 Créditos
 
-Este proyecto fue desarrollado como un desafío de programación para aprender y aplicar conceptos de HTML, CSS y JavaScript.
+Este proyecto fue desarrollado como un desafío de programación para aplicar conceptos de HTML, CSS y JavaScript.
 
-📌 Mejoras aplicadas:
-✔️ Uso de emojis para mejorar la presentación.
-✔️ Mayor claridad en la estructura y redacción.
-✔️ Corrección de enlaces y formato de código.
-
-Si quieres que haga algún ajuste adicional, dime qué te gustaría mejorar. 🚀
