@@ -1,3 +1,8 @@
+![Estado](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-green)
+![Version](https://img.shields.io/badge/VERSION-1.0-blue)
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JS](https://img.shields.io/badge/JavaScript-ES6-yellow)
 # Amigo Secreto
 
 Este proyecto es una aplicación interactiva que permite organizar un sorteo de "Amigo Secreto" de manera fácil y divertida. Los usuarios pueden agregar nombres de amigos a una lista y, con un solo clic, se seleccionará aleatoriamente a un participante como el "amigo secreto".
